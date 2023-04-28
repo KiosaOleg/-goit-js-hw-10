@@ -1,14 +1,38 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Page title</title>
-    <link rel="stylesheet" href="./sass/index.scss" />
-    <script type="module" src="./index.js"></script>
+    <title>Homework 10</title>
+    <!-- <style>
+      ul {
+        list-style: none;
+        padding-left: 20px;
+        margin: 0;
+      }
+      .img-flag {
+        padding: 3px;
+        margin-left: 20px;
+        background-color: lightgrey;
+      }
+
+      .country-info__title {
+        padding-left: 20px;
+        margin: 0;
+      }
+
+      .country-list__item,
+      .country-info__item {
+        font-weight: 700;
+      }
+    </style> -->
   </head>
   <body>
-    <!-- ❗️❗️❗️ Add partials like so for every page -->
-    <include src="./partials/example.html"></include>
+    <input type="text" id="search-box" />
+    <ul class="country-list"></ul>
+    <div class="country-info"></div>
+
+    <script src="index.js" type="module"></script>
   </body>
 </html>
